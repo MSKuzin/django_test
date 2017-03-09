@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'p&1t7233)j%3_i%vzu+6gv6s78z@%e
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['infinite-journey-74792.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
